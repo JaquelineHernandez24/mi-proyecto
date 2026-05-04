@@ -1,0 +1,51 @@
+/* FONDO GENERAL */
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* TITULOS */
+.titulo {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.subtitulo {
+  color: #ccc;
+}
+
+/* TARJETAS */
+.card-demo {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.card-demo:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+}
+
+/* IFRAMES */
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* NAVBAR */
+.navbar {
+  letter-spacing: 1px;
+}
